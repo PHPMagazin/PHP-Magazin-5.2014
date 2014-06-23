@@ -1,0 +1,1 @@
+/** @jsx React.DOM */var HelloWorld = React.createClass({  render: function() {    return (      <h1>Hello {this.props.name}</h1>    );  }});React.renderComponent(  <HelloWorld name="World" />,  document.querySelector('body'));

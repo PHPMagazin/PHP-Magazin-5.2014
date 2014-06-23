@@ -1,0 +1,1 @@
+window.app = Ember.Application.create();app.Router.map(function() {  this.resource('index', {path: '/'});});app.IndexRoute = Ember.Route.extend({  model: function() {    return {      name: 'World'    }  }});
