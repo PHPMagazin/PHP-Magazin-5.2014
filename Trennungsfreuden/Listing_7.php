@@ -1,0 +1,1 @@
+class CompositeCommand{   // ...   public function __construct(    LoginCommand $loginCommand,    ConfirmEmailCommand $confirmEmailCommand)   {    // ...  }   public function getUsername()   {     return $this->loginCommand->getUsername();   }   public function getEmail()  {    return $this->confirmEmailCommand->getEmail();  }  // ...}

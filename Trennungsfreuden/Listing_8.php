@@ -1,0 +1,1 @@
+class CreateOrderCommandHandler{   public function __construct(OrderWriteService $orderWriteService)  {    // ...  }   public function execute(CreateOrderCommand $createOrderCommand)  {     $userId = $createOrderCommand->getUserID();    // ... retrieve items from command ...    $this->orderWriteService->placeOrder($userId, $items);  }}
