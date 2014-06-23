@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Hello World" description="simple hello world example"  default=" world">  <target name="hello">    <echo msg="Hello" />  </target>  <target name="world" depends="hello">    <echo msg=" World"/>  </target></project>

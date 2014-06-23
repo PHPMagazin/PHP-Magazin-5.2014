@@ -1,0 +1,1 @@
+release.xml<?xml version="1.0" encoding="UTF-8"?><databaseChangeLog ...>  <include file="database/releases/1.0.0.xml"/></databaseChangeLog>releases/1.0.0.xml<?xml version="1.0" encoding="UTF-8"?><databaseChangeLog ...>  <include file="database/changelogs/test.xml"/></databaseChangeLog>
