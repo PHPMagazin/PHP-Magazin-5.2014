@@ -1,0 +1,1 @@
+<script type="text/javascript">  ko.validation.rules["pin"] = { validator: function(val) { return      /(^\d{4}$)/.test(val); }, message: "Not Valid!" };  ko.validation.registerExtenders();  var pinVal = ko.observable().extend({pin : true});</script><label>Pin: <input data-bind="value: pinVal" /></label>
