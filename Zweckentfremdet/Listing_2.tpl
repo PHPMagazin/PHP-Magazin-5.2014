@@ -1,0 +1,1 @@
+[{if Koordinaten vorhanden}]  [{$oView->getGoogleEarthCodes()}][{else}]  [{$oView->getRouteAsString()}][{/if}]

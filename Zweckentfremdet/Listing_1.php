@@ -1,0 +1,1 @@
+class meineseite extends oxUBase {  public function render()  {    parent::render();    ...    return 'page/info/meineseite.tpl';  }}

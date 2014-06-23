@@ -1,0 +1,1 @@
+'blocks'      => array(  array(    'template'  => 'page/details/inc/tabs.tpl',    'block'     => 'details_tabs_media',    'file'      => '/views/blocks/route.tpl'  ),)
