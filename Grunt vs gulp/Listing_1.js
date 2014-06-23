@@ -1,0 +1,1 @@
+'use strict';module.exports = function(grunt) {  // Plug-ins laden  grunt.loadNpmTasks('grunt-contrib-uglify');  // Konfigurieren  grunt.initConfig({      uglify: { // task        dist: { // target          files: {            'dist/scripts/main.min.js' : ['app/scripts/main.js']          }        }      }  });};

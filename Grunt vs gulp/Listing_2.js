@@ -1,0 +1,1 @@
+'use strict';module.exports = function(grunt) {  //Konfiguration von oben  ...  grunt.registerTask('default', ['uglify']);};

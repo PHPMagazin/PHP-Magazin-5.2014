@@ -1,0 +1,1 @@
+...connect: {  server: {    options: {      base: ['app','.tmp'],      livereload: 35729,      open: true,      port: 9000,      hostname: '0.0.0.0'    }  }}...

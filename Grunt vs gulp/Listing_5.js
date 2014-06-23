@@ -1,0 +1,1 @@
+...grunt.loadNpmTasks('grunt-contrib-watch');grunt.initConfig({    ...    watch: {      // der Name ist wieder beliebig      scripts: {        // Alle JS-Dateien im Script-Folder ...        files: ['app/scripts/*.js],        // Sollen kontrolliert und anschließend minimiert werden        tasks: ['jshint', 'uglify']      }    }    ...});

@@ -1,0 +1,1 @@
+return gulp.src('app/styles/main.scss')  .pipe(sass({      style: 'compressed'  })  .pipe(prefix('last 1 version')).  .pipe(gulp.dest('dist/styles'));
