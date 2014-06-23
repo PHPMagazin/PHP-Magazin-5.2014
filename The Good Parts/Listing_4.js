@@ -1,0 +1,1 @@
+function* initArticles() {  var articles = yield $.ajax({    dataType: "json",    url: "/blog/all-articles"  });  var articleId = articles[0].id;  var comments = yield $.ajax({    dataType: "json",    url: "/blog/comments/" + articleId  });  renderBlogArticle(articles[0], comments);}

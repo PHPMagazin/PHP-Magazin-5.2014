@@ -1,0 +1,1 @@
+var articlePromise = $.ajax(...);var commentPromise = $.ajax(...);var authorPromise  = $.ajax(...);var everythingPromise = $.when(  articlePromise,  commentPromise,  authorPromise);everythingPromise.done(  function(articles, comments, authors) {    // ...  });

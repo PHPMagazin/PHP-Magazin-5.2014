@@ -1,0 +1,1 @@
+$.ajax({  dataType: "json",  url: "/blog/all-articles",  success: function(articles) {    // Do something with the freshly fetched articles  }});

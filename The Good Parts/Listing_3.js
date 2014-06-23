@@ -1,0 +1,1 @@
+function* idGenerator() {  var i = 0;  while (true) {    yield i;    i = i + 1;  }}

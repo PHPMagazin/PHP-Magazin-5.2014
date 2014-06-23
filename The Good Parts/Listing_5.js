@@ -1,0 +1,1 @@
+function spawn(generator) {  var operations = generator();  function nextStep(generatorResult) {    if (generatorResult.done === false) {      generatorResult.value.done(function(asyncResult) {        nextStep(operations.next(asyncResult));      });    }  }  nextStep(operations.next());}
